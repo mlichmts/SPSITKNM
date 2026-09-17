@@ -248,30 +248,7 @@ Používateľ s rozšírenými oprávneniami, ktorý sa stará o obsah systému.
 
 ## 10. Use Case diagram
 
-V systéme budú použité minimálne dva aktéry:
 
-**Bežný používateľ**
-- Zobraziť trate
-- Vyhľadať trať
-- Filtrovať trate
-- Zobraziť detail trate
-- Zobraziť oznámenia o pretekoch
-- Zobraziť detail oznámenia
-
-**Administrátor**
-- Prihlásiť sa
-- Pridať trať
-- Upraviť trať
-- Odstrániť trať
-- Pridať oznámenie
-- Upraviť oznámenie
-- Odstrániť oznámenie
-
-Možné vzťahy:
-- „Vyhľadať trať“ môže **include** „Zobraziť trate“.
-- „Filtrovať trate“ môže **include** „Zobraziť trate“.
-- „Zobraziť detail trate“ môže nasledovať po „Zobraziť trate“.
-- Administrátorské operácie môžu **include** „Prihlásiť sa“.
 
 ---
 
