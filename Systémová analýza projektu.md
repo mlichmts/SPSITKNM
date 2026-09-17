@@ -2,8 +2,8 @@
 
 ## Názov projektu (+ meno riešiteľa)
 - **Názov projektu**: MotoTrack Slovakia – databáza motokrosových, enduro a countrycross tratí
-- **Meno riešiteľa**: [Meno študenta]
-- **Login**: [Login]
+- **Meno riešiteľa**: Matúš Mlích
+
 
 ---
 
