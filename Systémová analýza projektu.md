@@ -248,7 +248,7 @@ Používateľ s rozšírenými oprávneniami, ktorý sa stará o obsah systému.
 
 ## 10. Use Case diagram
 
-
+![Use Case diagram](diagram1.png)
 
 ---
 
