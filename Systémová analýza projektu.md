@@ -374,79 +374,13 @@ Používateľ s rozšírenými oprávneniami, ktorý sa stará o obsah systému.
 
 ## 12. Sekvenčný diagram
 
-Sekvenčný diagram môže znázorňovať proces vyhľadania trate.
-
-**Účastníci:**
-- Používateľ
-- Webové rozhranie
-- Aplikačný server
-- Databáza
-
-**Postup:**
-1. Používateľ zadá názov alebo lokalitu trate.
-2. Webové rozhranie odošle požiadavku aplikačnému serveru.
-3. Aplikačný server odošle dotaz do databázy.
-4. Databáza vyhľadá zodpovedajúce trate.
-5. Databáza odošle výsledky serveru.
-6. Server odošle výsledky webovému rozhraniu.
-7. Webové rozhranie zobrazí výsledky používateľovi.
-8. Používateľ môže vybrať konkrétnu trať.
-9. Systém následne zobrazí jej detail.
+![Sekvencny diagram](diagram2.png)
 
 ---
 
 ## 13. Triedny diagram
 
-Triedny diagram môže obsahovať najmä tieto triedy:
-
-### User
-- `id`
-- `meno`
-- `email`
-- `heslo`
-- `rola`
-
-**Metódy:**
-- `login()`
-- `logout()`
-
-### Track
-- `id`
-- `nazov`
-- `lokalita`
-- `typ`
-- `obtiaznost`
-- `popis`
-
-**Metódy:**
-- `createTrack()`
-- `updateTrack()`
-- `deleteTrack()`
-
-### RaceAnnouncement
-- `id`
-- `nazov`
-- `datum`
-- `miesto`
-- `typPretekov`
-- `popis`
-
-**Metódy:**
-- `createAnnouncement()`
-- `updateAnnouncement()`
-- `deleteAnnouncement()`
-
-### Database
-- údaje o používateľoch
-- údaje o tratiach
-- údaje o oznámeniach
-
-**Vzťahy:**
-- `User` môže spravovať viac objektov `Track`.
-- `User` môže spravovať viac objektov `RaceAnnouncement`.
-- `Track` predstavuje jednu trať v databáze.
-- `RaceAnnouncement` predstavuje jedno oznámenie o pretekoch.
-- `Database` uchováva používateľov, trate a oznámenia.
+![Triedny diagram](diagram3.png)
 
 ---
 
